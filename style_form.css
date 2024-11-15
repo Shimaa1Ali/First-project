@@ -1,0 +1,108 @@
+*{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 19px;
+    margin: 0 auto;
+
+}
+h3{
+    margin: 0;
+    padding-bottom:30px ;
+    font-size: 30px;
+    text-align: center;
+    color: rgb(5, 3, 1);
+    text-shadow: 1px 1px 1px black;
+    font-weight: bold;
+
+
+}
+.main{
+
+font-weight:300px;
+background-color:#ecdfccbb;
+width: 1100px;
+height: 850px;
+border-radius: 30px;
+display: flex;
+margin:80px auto;
+justify-content: space-between;
+letter-spacing: .75px;/**increases the space between each letter in the text **/
+align-items: center;
+line-height: 2;/**gives more vertical spacing between lines and can make the text easier to read.**/
+position: relative;
+
+
+}
+
+.form_div{
+justify-content: space-between;
+width: 100%;
+height: 95%;
+padding: 20px ;
+border-radius: 0 30px 30px 0 ;
+font-weight: 20px;
+}
+.form_image{
+   border-radius:30px 0 0 30px;
+   width:100%;
+   height:100%;
+   background-color: #697565;
+}
+
+
+.fName, .lName, .email,  .pass, .conpass{
+width: 350px;
+height: 60px;
+padding: 10px;          /* Adds space inside the input */
+    font-size: 19px;        /* Sets font size */
+    color: #333;            /* Text color */
+    background-color: #f9f9f9; /* Background color */
+    border: 1px solid #ccc; /* Border color and width */
+    border-radius: 10px;     /* Rounds the corners */
+}
+
+.fName, .lName{
+    display: inline-block;
+    width: 25%;
+}
+
+.Remember_me, .cv{
+    color: #004d17;
+    font-weight:bold;
+}
+.check1, .Remember_me{
+    height: 20px;
+    width: 20px;
+    display: inline;
+}
+.file{
+    
+    height: 40px;
+    width: 150px;
+    border: #000000;
+}
+.btn-dark{
+position: absolute;
+margin-bottom: 5px;
+padding-left: 50%;
+padding: 10px;
+width: 500px;
+height: 60px;
+font-size: larger;
+font-weight:500;
+}
+
+.icon{
+width: 50px;
+height: 50px;
+}
+.file{
+    display: none;
+
+}
+.cv{
+
+    background-color: #27643ad3;
+    padding: 10px 20px;
+    border-radius: 7px;
+    color: #f9f9f9;
+}
