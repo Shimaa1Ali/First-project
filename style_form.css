@@ -29,7 +29,7 @@ letter-spacing: .75px;/**increases the space between each letter in the text **/
 align-items: center;
 line-height: 2;/**gives more vertical spacing between lines and can make the text easier to read.**/
 position: relative;
-
+color: #3C3D37;
 
 }
 
@@ -58,7 +58,6 @@ padding: 10px;          /* Adds space inside the input */
     background-color: #f9f9f9; /* Background color */
     border: 1px solid #ccc; /* Border color and width */
     border-radius: 10px;     /* Rounds the corners */
-    input :invalid{border-color: red;} 
     
 }
 

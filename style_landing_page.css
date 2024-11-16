@@ -39,6 +39,8 @@ justify-content:left;
     display:inline-flex;
     margin: auto;
     background-color: #E7E8D8;
+    border:solid 1px #74726493;
+    padding: 20px;
 }
 
 .products{
@@ -51,12 +53,20 @@ justify-content:left;
     letter-spacing: .75px;/**increases the space between each letter in the text **/
     align-items: center;
     line-height: 2;
-    margin-top: 30px;
+    margin: 30px;
+    margin-left: 20px;
+    padding: 20px;
     color: #747264;
     font-weight:bolder;
     font-size: 32px;
     h4{
         color: #31363F;
-        margin: 20px;
+        margin: 30px;
+        margin-left: 20px;
+        padding: 20px;
+
     }
+}
+footer{
+    background-color: #E7E8D8;
 }
