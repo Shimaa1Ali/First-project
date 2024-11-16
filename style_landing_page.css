@@ -11,8 +11,8 @@
 .card{
     display: inline-flex;
     margin: 10px ;
-   justify-content:center;
-   background-color:#FAF7F0;
+    justify-content:center;
+    background-color:#FAF7F0;
    .btn{
 color: #747264;
 background-color:#E0CCBE;
@@ -44,7 +44,7 @@ justify-content:left;
 }
 
 .products{
-    text-align: center;
+   text-align: center;
    color: #F5F5F7;
    background-color: #BC9F8B;
 }
@@ -67,15 +67,25 @@ justify-content:left;
 
     }
 }
-footer{
-    background-color: #E7E8D8;
-    color: #000;
-}
 .card_group1{
     display: flex;
     gap: 16px; 
+    .btn{
+        
+    }
 }
 .card_group2{
     display: flex;
-    gap: 16px; /
+    gap: 16px; 
+}
+
+.text-center{
+background-color: #e7e8d8;
+color: #31363F;
+section{
+    margin-top: 20px;
+    padding-top: 20px;
+    background-color: #e7e8d8;
+
+}
 }
