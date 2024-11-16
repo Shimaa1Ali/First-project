@@ -6,7 +6,7 @@
     justify-content: space-between;
     letter-spacing: .75px;/**increases the space between each letter in the text **/
     align-items: center;
-    line-height: 3;/
+    line-height: 3;
 }
 .card{
     display: inline-flex;
@@ -69,4 +69,13 @@ justify-content:left;
 }
 footer{
     background-color: #E7E8D8;
+    color: #000;
+}
+.card_group1{
+    display: flex;
+    gap: 16px; 
+}
+.card_group2{
+    display: flex;
+    gap: 16px; /
 }
